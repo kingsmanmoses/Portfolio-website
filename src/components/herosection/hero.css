@@ -1,0 +1,65 @@
+.hero-sect {
+  padding-top: 150px;
+}
+.hire-btn {
+  background: #fff;
+  color: #0e1b31;
+  font-weight: 500;
+}
+
+.hire-btn:hover .me {
+  color: #0e1b31;
+}
+.hero-title span {
+  color: #7865ff;
+}
+
+.hero-title {
+  font-weight: 600;
+}
+
+.hero-img {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-top: -160px;
+}
+
+.hero-content p {
+  line-height: 30px;
+  font-weight: 300;
+}
+
+/* For responsiveness */
+
+@media screen and (max-width: 992px) {
+  .hero-img {
+    margin-top: -90px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .hero-content p {
+    font-size: 0.8rem;
+  }
+  .hero-title {
+    font-size: 1.6rem;
+  }
+  .hero-btns button {
+    margin-top: 0;
+    display: block;
+    padding: 5px 20px;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-img {
+    margin: auto;
+    width: 230px;
+    height: 260px;
+  }
+  .hero-title {
+    font-size: 1.5rem;
+  }
+}
