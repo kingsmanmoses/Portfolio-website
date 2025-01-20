@@ -1,0 +1,29 @@
+.home_social {
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+}
+
+.homeSoc_icon {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
+.homeSoc_icon:hover {
+  color: blue;
+}
+
+/*!=============== BREAKPOINTS ===============*/
+/** For large devices */
+@media screen and (max-width: 992px) {
+}
+
+/** For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/** For small devices */
+@media screen and (max-width: 350px) {
+}

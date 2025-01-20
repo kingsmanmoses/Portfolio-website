@@ -1,0 +1,24 @@
+.skill_cont {
+  grid-template-columns: repeat(2, 350px);
+  column-gap: 3rem;
+  justify-content: center;
+}
+
+/** For large devices */
+@media screen and (max-width: 992px) {
+  .skill_cont {
+    grid-template-columns: max-content;
+    row-gap: 2rem;
+  }
+}
+
+/** For medium devices */
+@media screen and (max-width: 576px) {
+  .skill_cont {
+    grid-template-columns: 1fr;
+  }
+}
+
+/** For small devices */
+@media screen and (max-width: 350px) {
+}

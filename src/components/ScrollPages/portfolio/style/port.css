@@ -1,0 +1,94 @@
+.project {
+  display: flex;
+  gap: 100px;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+}
+.proDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+.proHead {
+  font-size: 4rem;
+  -webkit-text-stroke: 1px #000;
+  color: transparent;
+}
+.proSub {
+  font-size: 3rem;
+}
+.proBorder {
+  border: 1px solid black;
+}
+.proList {
+  display: flex;
+  gap: 5px;
+}
+.proBtnCont {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.proBtn {
+  border-radius: 50%;
+  background: #000;
+  color: #ffff;
+  padding: 13px;
+  align-items: center;
+}
+.proIcon {
+  font-size: 1.3rem;
+}
+
+.swipCont {
+  width: 50%;
+}
+.proImg {
+  object-fit: cover;
+}
+
+.swipImg {
+  width: 200px;
+  height: 300px;
+}
+
+/** For large devices */
+@media screen and (max-width: 992px) {
+  .project {
+    gap: 40px;
+    width: 95%;
+
+    padding-right: 100px;
+    padding-left: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+  .proDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: none;
+    flex: 1;
+  }
+  .proHead {
+    font-size: 3rem;
+  }
+  .proSub {
+    font-size: 2rem;
+  }
+  .proBorder {
+    width: 230px;
+  }
+}
+
+/** For medium devices */
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+}
+
+/** For small devices */
+@media screen and (max-width: 350px) {
+}
