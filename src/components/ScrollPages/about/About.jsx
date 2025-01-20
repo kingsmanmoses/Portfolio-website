@@ -21,7 +21,7 @@ const About = () => {
         <div className="about_data">
           <AboutDataUI />
           <p className="about_desc">
-            I am a seasoned software developer, I blend technical expertise with
+            I am a seasoned software developer. I blend technical expertise with
             effective communication. My journey spans diverse tech stacks, from
             web to mobile. Let’s connect and create something amazing together!
           </p>
