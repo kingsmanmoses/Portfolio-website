@@ -1,7 +1,7 @@
 import React from "react";
 import { FaDownload } from "react-icons/fa";
 import "./about.css";
-import CV from "../../../assets/files/Moses_CV.pdf";
+import CV from "../../../assets/files/Okoye_Moses_CV.pdf";
 import aboutImg from "../../../assets/img/about.jpg";
 import AboutDataUI from "../../resuseable_ui/aboutDataUI/AboutDataUI";
 
