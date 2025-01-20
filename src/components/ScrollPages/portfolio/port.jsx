@@ -32,7 +32,7 @@ const projects = [
     category: "Full-stack",
     title: "project 2",
     description:
-      "This virtual kings-money website deals on making exchange of money in any currency and to send it to any person or loved one",
+      "The Virtual Kings-Money website facilitates currency exchange and allows you to send money to anyone, anywhere",
     stack: [{ name: "React" }, { name: "Tailwind" }, { name: "MongoDB" }],
     image: thumbTwo,
     link: "",
