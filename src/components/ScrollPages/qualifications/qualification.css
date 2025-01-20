@@ -1,0 +1,118 @@
+.qual_cont {
+  max-width: 768px;
+}
+
+.qual_tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--mb-2);
+  gap: 2.5rem;
+}
+
+.qual_btn {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.qual_btn:hover {
+  color: grey;
+}
+
+.qual_icon {
+  font-size: 1.8rem;
+  margin-right: var(--mb-0-25);
+}
+
+.qual_active {
+  color: bisque;
+}
+.qual_sect {
+  display: grid;
+  grid-template-columns: 0.5fr;
+  justify-content: center;
+}
+
+.qual_content {
+  display: none;
+}
+
+.qual_contentActive {
+  display: block;
+}
+
+.qual_data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+.qual_title {
+  font-size: var(--normal-font-size);
+  font-weight: bold;
+}
+.qual_subtitle {
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+}
+.qual_calender {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--small-font-size);
+}
+.qual_rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+}
+
+.qual_line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--text-color);
+  transform: translate(6px, -7px);
+}
+
+/** For large devices */
+@media screen and (max-width: 992px) {
+  .qual_cont {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/** For medium devices */
+@media screen and (max-width: 768px) {
+  .qual_cont {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+}
+@media screen and (max-width: 576px) {
+  .qual_sect {
+    grid-template-columns: initial;
+  }
+  .qual_tabs {
+    gap: 2.2rem;
+  }
+  .qual_btn {
+    font-size: var(--small-font-size);
+  }
+}
+
+/** For small devices */
+@media screen and (max-width: 350px) {
+  .qual_data {
+    gap: 0.5rem;
+  }
+}

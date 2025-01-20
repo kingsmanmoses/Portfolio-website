@@ -1,0 +1,41 @@
+.test_cont {
+  width: 450px;
+}
+
+.test_card {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 2rem;
+  border-radius: 1.5rem;
+  margin-bottom: var(--mb-3);
+}
+
+.test_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: var(--mb-1);
+}
+
+.test_name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1);
+}
+/* 
+  .test_desc {
+    font-size: var(--small-font-size);
+  } */
+
+@media screen and (max-width: 576px) {
+  .test_cont {
+    width: 340px;
+  }
+}
+
+/** For small devices */
+@media screen and (max-width: 360px) {
+  .test_cont {
+    width: 300px;
+  }
+}

@@ -1,0 +1,49 @@
+.scroll_cont {
+  margin-left: 9.25rem;
+}
+
+.wheel {
+  animation: scroll 2s ease infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(0.2rem);
+  }
+}
+
+.scrollBtn_name {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  margin-right: var(--mb-0-25);
+  margin-left: 2px;
+}
+.scroll_down {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
+
+/*!=============== BREAKPOINTS ===============*/
+/** For large devices */
+@media screen and (max-width: 992px) {
+  .scroll_cont {
+    margin-left: 7.5rem;
+  }
+}
+
+/** For medium devices */
+@media screen and (max-width: 768px) {
+  .scroll_cont {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/** For small devices */
+@media screen and (max-width: 350px) {
+}
