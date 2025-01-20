@@ -63,7 +63,7 @@ const Contact = () => {
                 className="contact_btn"
                 target="_blank"
               >
-                Write Me <FaArrowRight className="btnIcon" />
+                Connect with Me <FaArrowRight className="btnIcon" />
               </a>
             </div>
 
@@ -77,7 +77,7 @@ const Contact = () => {
                 href="https://api.whatsapp.com/send?phone=07923958322"
                 className="contact_btn"
               >
-                Write Me
+                Connect with Me
                 <FaArrowRight className="btnIcon" />
               </a>
             </div>
