@@ -91,7 +91,7 @@ const Qualifications = () => {
                   Preston Academy of English
                 </span>
                 <div className="qual_calender">
-                  <FaCalendarAlt /> Sept 2024 - Present
+                  <FaCalendarAlt /> Sept 2023 - Present
                 </div>
               </div>
 
