@@ -24,8 +24,8 @@ const projects = [
       "The Kingsman Banking website is a modern, user-friendly platform created using React. It showcases a sleek and professional design, providing users with a seamless banking experience. The site includes features such as account management, transaction history, and customer support, all aimed at enhancing user convenience and satisfaction.",
     stack: [{ name: "React" }, { name: "CSS" }, { name: "Javascript" }],
     image: thumbOne,
-    link: "",
-    github: "",
+    link: "https://kingsman-banking-site.netlify.app/",
+    github: "https://github.com/kingsmanmoses/Banking-website",
   },
   {
     num: "02",
@@ -35,8 +35,8 @@ const projects = [
       "The Virtual Kings-Money website facilitates currency exchange and allows you to send money to anyone, anywhere",
     stack: [{ name: "React" }, { name: "Tailwind" }, { name: "MongoDB" }],
     image: thumbTwo,
-    link: "",
-    github: "",
+    link: "https://kingsman-dollar-site.netlify.app/",
+    github: "https://github.com/kingsmanmoses/Dollar-Exchange-site",
   },
   {
     num: "03",
@@ -46,8 +46,8 @@ const projects = [
       "This is a website for all my fashion designers lovers, made this website where you can post your work or showcase your work",
     stack: [{ name: "React" }, { name: "Tailwind" }, { name: "Javascript" }],
     image: thumbThree,
-    link: "",
-    github: "",
+    link: "https://kfashion.netlify.app/",
+    github: "https://github.com/kingsmanmoses/Fashion-website",
   },
 ];
 
@@ -98,7 +98,11 @@ const Portfolio = () => {
                 {/* //! Buttons */}
                 <div className="flex items-center gap-4">
                   {/* //! Live project button */}
-                  <a href={project.link}>
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <TooltipProvider delayDuration={100}>
                       <Tooltip>
                         <TooltipTrigger className="w-[50px] h-[50px] rounded-full bg-black flex justify-center items-center group">
@@ -112,7 +116,11 @@ const Portfolio = () => {
                   </a>
 
                   {/* //! Github button */}
-                  <a href={project.github}>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <TooltipProvider delayDuration={100}>
                       <Tooltip>
                         <TooltipTrigger className="w-[50px] h-[50px] rounded-full bg-black flex justify-center items-center group">
